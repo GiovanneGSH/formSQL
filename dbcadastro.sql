@@ -144,7 +144,7 @@ select * from tbEnderecos;
 select * from tbContatos;
 
 
---UPDATE NAS TABELAS
+--UPDATE NA TABELA USUÁRIO
 
 
 select * from tbUsuarios;
@@ -153,3 +153,50 @@ update tbUsuarios set senha = 'surfistadeTR3M' where idUsu = 1;
 
 select * from tbUsuarios;
 
+
+--UPDATE NA TABELA ALUNOS
+
+
+select * from tbAlunos;
+
+update tbAlunos set nome = 'Jorge Ben' where idAlu = 1;
+
+select * from tbAlunos;
+
+
+--UPDATE NA TABELA DOCUMENTOS
+
+
+select * from tbDocumentos;
+
+update tbDocumentos set tipoDocumento = 'RG' where idDoc = 2;
+
+update tbDocumentos set numeroDocumento = '94.346.177-5' where idDoc = 2;
+
+update tbDocumentos set orgaoEmissor = 'SSP' where idDoc = 2;
+
+select * from tbDocumentos;
+
+
+--UPDATE NA TABELA ENDEREÇOS
+
+
+select * from tbEnderecos;
+
+update tbEnderecos set nomeRua = 'Av.Adolfo Pinheiro' where idEnd = 1;
+
+update tbEnderecos set bairro = 'Santo Amaro' where idEnd = 1;
+
+update tbEnderecos set numero = '1340' where idEnd = 1;
+
+select * from tbEnderecos;
+
+
+--UPDATE NA TABELA CONTATOS
+
+
+select * from tbContatos;
+
+update tbContatos set telCel = '4579-1765' where idCon = 2;
+
+select * from tbContatos;
